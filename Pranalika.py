@@ -32,65 +32,6 @@ def load(name = "noname"):
 
     ############################################## Saving and Loading Files Done  #######################################
 
-    ############################################## File Check Begin #####################################################
-
-# def AutoCOVIDingExcel():
-#     ## Covid Excel Sheet Import program helps dialy statistics,Analysis and Predictions.
-#     #used keyboard library, for installing, ---> pip install keyboard.Thats it.
-#     print('Alert: Please Dont Touch the Keyboard until Confirmation of Completion.') #Warning. during this function process.
-#     #During this process, continuous operations are being held out. 
-#     #better not touch the keyboard... until the function executes "Done".
-#     import os,time
-#     try: #Python not pre installed with keyboard library. its better to avoid exception.
-#     #Hence the Try Form is There.
-#         import keyboard
-#         os.startfile('C:\\Users\\Home\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Anaconda3 (64-bit)\\Anaconda Powershell Prompt (AnacondaNewandManualInstallation)')
-#         # if executing from another computer, Changing the Destination Folder is Mandatory.
-#         # Please Make Sure Directory Path is Changed According to User Requirements.
-#         time.sleep(4) 
-#         # Time Taking for Loading to certain Directory and then, writing on the Command Helps Process Better.
-#         keyboard.write('cd \'C:\\Users\\Home\\Downloads\\Keshav Files\\Keshav\\Codes\\COVID-19\'') #Program Directory Path
-#         ##Series of Process Running the Program and Executing back to Normal Work(alt+tab) Automatically.
-#         keyboard.press_and_release('enter')
-#         #presses the enter key
-#         keyboard.write('python COVID-19.py')
-#         #enters this command
-#         #this is changeable according to user preferences. name is a variant here.
-        
-#         time.sleep(3)
-#         #waits for 3 seconds, for not creating any errors.
-#         keyboard.press_and_release('enter')
-#         #presses to enter the program
-#         keyboard.write('n')
-#         #Means: No
-#         keyboard.press_and_release('enter')
-#         #Decision Given to Program 
-#         keyboard.write('n')
-#         #Means: No
-#         keyboard.press_and_release('enter')
-#         #Decision Given to Program
-#         keyboard.write('n')
-#         #Means: No
-#         keyboard.press_and_release('enter')
-#         #Decision Given to Program
-#         keyboard.write('n')
-#         #Means: No
-#         keyboard.press_and_release('enter')
-#         #Decision Given to Program
-#         keyboard.write('y')
-#         #Means: Yes
-#         keyboard.press_and_release('enter')
-#         #Decision Given to Program        
-#         time.sleep(2)
-#         #waits for 2 Seconds to enter into Full Screen Mode
-#         keyboard.press_and_release('F11') #Full Screen Mode
-#         keyboard.press_and_release('alt+tab')
-#         #to get back to currently operating program by user.
-#         print('\nDone\n\n') #Function Execution Completion Result.
-#     except: 
-#         #Notifying All Possible Errors.
-#         print('Probable Errors:\n\t1.Cant Execute the Program. please install keyboard library - pip install keyboard\n\t2.Please Update the Application Program Location in the program or input the shortcut key in the program.\n\t3.Update the Press Keys.')
-
 dw = ['yes','y'] #just to verify the user input as yes or no
 count56 = 0 #variable assigning
 start_hours,start_minutes,start_seconds,end_hours,end_minutess,end_seconds = 23,59,59,23,59,59 #default time settings.
@@ -878,18 +819,6 @@ if username == 'Keshav' and password == 'Pranalikaa': #username and password is 
             print('\n\n',index)#time format outputs
 
             tasks_over = True
-
-        # elif today_mins_over >= task3 and t10 == True:
-
-        #     print('\n\nAuto Excel import Program is initiating...')
-
-        #     AutoCOVIDingExcel()
-
-        #     print('COVID-19 Excel Import Request Initiated and it is Running Successfully in the BackGround.')
-
-        #     t10 = False
-
-        #     print('\n\n',index)
 
         else:#if not
 
